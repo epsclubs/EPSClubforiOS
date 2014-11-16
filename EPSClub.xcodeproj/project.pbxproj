@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		4A2FF1791A15E4D60046180A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FF1781A15E4D60046180A /* main.m */; };
 		4A2FF17C1A15E4D60046180A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FF17B1A15E4D60046180A /* AppDelegate.m */; };
-		4A2FF17F1A15E4D60046180A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FF17E1A15E4D60046180A /* FirstViewController.m */; };
-		4A2FF1821A15E4D60046180A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FF1811A15E4D60046180A /* SecondViewController.m */; };
 		4A2FF1851A15E4D60046180A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2FF1831A15E4D60046180A /* Main.storyboard */; };
 		4A2FF1871A15E4D70046180A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2FF1861A15E4D70046180A /* Images.xcassets */; };
 		4A2FF18A1A15E4D70046180A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2FF1881A15E4D70046180A /* LaunchScreen.xib */; };
 		4A2FF1961A15E4D70046180A /* EPSClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FF1951A15E4D70046180A /* EPSClubTests.m */; };
+		4A798ACF1A186350007FCA1D /* frmLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A798ACE1A186350007FCA1D /* frmLogin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +32,14 @@
 		4A2FF1781A15E4D60046180A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A2FF17A1A15E4D60046180A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A2FF17B1A15E4D60046180A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A2FF17D1A15E4D60046180A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		4A2FF17E1A15E4D60046180A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		4A2FF1801A15E4D60046180A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		4A2FF1811A15E4D60046180A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		4A2FF1841A15E4D60046180A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A2FF1861A15E4D70046180A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A2FF1891A15E4D70046180A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A2FF18F1A15E4D70046180A /* EPSClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPSClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2FF1941A15E4D70046180A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2FF1951A15E4D70046180A /* EPSClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPSClubTests.m; sourceTree = "<group>"; };
+		4A798ACD1A186350007FCA1D /* frmLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frmLogin.h; sourceTree = "<group>"; };
+		4A798ACE1A186350007FCA1D /* frmLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = frmLogin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +81,9 @@
 		4A2FF1751A15E4D60046180A /* EPSClub */ = {
 			isa = PBXGroup;
 			children = (
+				4A798ACC1A186328007FCA1D /* login */,
 				4A2FF17A1A15E4D60046180A /* AppDelegate.h */,
 				4A2FF17B1A15E4D60046180A /* AppDelegate.m */,
-				4A2FF17D1A15E4D60046180A /* FirstViewController.h */,
-				4A2FF17E1A15E4D60046180A /* FirstViewController.m */,
-				4A2FF1801A15E4D60046180A /* SecondViewController.h */,
-				4A2FF1811A15E4D60046180A /* SecondViewController.m */,
 				4A2FF1831A15E4D60046180A /* Main.storyboard */,
 				4A2FF1861A15E4D70046180A /* Images.xcassets */,
 				4A2FF1881A15E4D70046180A /* LaunchScreen.xib */,
@@ -122,6 +116,15 @@
 				4A2FF1941A15E4D70046180A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A798ACC1A186328007FCA1D /* login */ = {
+			isa = PBXGroup;
+			children = (
+				4A798ACD1A186350007FCA1D /* frmLogin.h */,
+				4A798ACE1A186350007FCA1D /* frmLogin.m */,
+			);
+			name = login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,9 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2FF1821A15E4D60046180A /* SecondViewController.m in Sources */,
+				4A798ACF1A186350007FCA1D /* frmLogin.m in Sources */,
 				4A2FF17C1A15E4D60046180A /* AppDelegate.m in Sources */,
-				4A2FF17F1A15E4D60046180A /* FirstViewController.m in Sources */,
 				4A2FF1791A15E4D60046180A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +353,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EPSClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,7 +365,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EPSClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +426,7 @@
 				4A2FF19B1A15E4D70046180A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A2FF19C1A15E4D70046180A /* Build configuration list for PBXNativeTarget "EPSClubTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				4A2FF19E1A15E4D70046180A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
